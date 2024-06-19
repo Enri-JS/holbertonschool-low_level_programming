@@ -6,11 +6,11 @@
 
 int main(void)
 {
-	char a;
+	char l;
 
 	int b;
 
-	a = 'a';
+	l = 'a';
 	b = 0;
 	while
 		(b < 10) {
@@ -18,9 +18,9 @@ int main(void)
 			b++;
 		}
 	while
-		(a <= 'l') {
-			putchar(a);
-			a++;
+		(l <= 'f') {
+			putchar(l);
+			l++;
 		}
 	putchar('\n');
 	return (0);
