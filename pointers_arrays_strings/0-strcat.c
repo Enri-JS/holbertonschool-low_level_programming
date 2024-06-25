@@ -1,18 +1,18 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
  * _strcat - concatenates two strings
+ * _strlen - checks the length of the string
  * @dest: destination
  * @src: current string
- * Return: Always 0
+ * Return: new_string
  */
 char *_strcat(char *dest, char *src)
 {
-	char *r;
+	int len = _strlen(dest);
+	int len2 = _strlen(src);
+	int temp = len + len2;
 
-	r = strcat(dest, src);
-	*r = '\0';
-	printf("%d\n", *r);
-	return (0);
+	if (*dest != temp)
+		dest++;
+	return (dest);
 }
