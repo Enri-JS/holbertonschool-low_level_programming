@@ -12,6 +12,7 @@ char *_strcat(char *dest, char *src)
 	char *r;
 
 	r = strcat(dest, src);
-	printf("The concatenated result is: %s\n", r);
+	*r = '\0';
+	printf("%d\n", *r);
 	return (0);
 }
