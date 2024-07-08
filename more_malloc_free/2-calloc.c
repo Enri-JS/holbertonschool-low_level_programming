@@ -19,8 +19,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 		return (NULL);
 	while (i < j)
 	{
-			p[i] = 0;
-			i++;
+		p[i] = 0;
+		i++;
 	}
-			return (p);
+	return (p);
 }
