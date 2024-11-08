@@ -3,6 +3,7 @@
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: input value
+ * @m: iterate number
  * Return: always 0
  */
 int _sqrt(int n, int m);
