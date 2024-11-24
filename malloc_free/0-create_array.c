@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 #include <stdlib.h>
-/*
+/**
  * create_array - creates an array of chars
- *  @size: size of the array
- *  @c: value
- *  return: NULL if size = 0
- **/
+ * @size: size of the array
+ * @c: value
+ * return: NULL if size = 0
+ */
 char *create_array(unsigned int size, char c)
 {
 	char *array;
